@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="home">
+        <nav>
+            ̌<input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="menu-toggle">&#9776;</i>
+            </label>
+            <label class="logo">Burger<span>Park</span></label>
+            <!-- <div class="menu-toggle">&#9776;</div> -->
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu-header">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#review">Reviews</a></li>
+            </ul>
+        </nav>
+        
+        <section>
+            <h1 class="animated-text">Welcome to Our Burger Restaurant</h1>
+            <div class="img">
+                <img src="icon/helloburger.jpg" alt="burger">
+            </div>
+            <p class="orderP">Ready to satisfy your cravings? Click the button below to place your order.</p>
+            <a href="SignIn.html"><button class="order-button">Order Now</button></a>
+        </section>
+    </section>
+
+    <!-- MENU SCETION  -->
+
+    <div id="menu-header"><h1>BURGER RESTAURANT MENU</h1></div>
+    <section id="menu">
+        <div class="menu-item">
+            <img src="icon/classic.jpeg" alt="Classic Burger">
+            <div class="menu-item-content">
+                <h2>Classic Burger</h2>
+                <p>A juicy beef patty with lettuce, tomato, onion, pickles, and our special sauce.</p>
+                <p class="menu-item-price">Price: $8.99</p>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="icon/vegetarian.jpeg" alt="Vegetarian Burger">
+            <div class="menu-item-content">
+                <h2>Vegetarian Burger</h2>
+                <p>Grilled veggie patty with fresh greens, tomato, and our house-made vegetarian sauce.</p>
+                <p class="menu-item-price">Price: $7.99</p>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="icon/doublecheese.jpeg" alt="Double Cheeseburger">
+            <div class="menu-item-content">
+                <h2>Double Cheeseburger</h2>
+                <p>Two beef patties, double cheese, lettuce, and our secret sauce.</p>
+                <p class="menu-item-price">Price: $10.99</p>
+            </div>
+        </div>
+
+        <!-- Additional menu items -->
+
+        <div class="menu-item">
+            <img src="icon/spicychicken.jpeg" alt="Spicy Chicken Burger">
+            <div class="menu-item-content">
+                <h2>Spicy Chicken Burger</h2>
+                <p>Grilled spicy chicken breast with lettuce, tomato, and our special spicy sauce.</p>
+                <p class="menu-item-price">Price: $9.99</p>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="icon/loadedFries.jpeg" alt="Loaded Fries">
+            <div class="menu-item-content">
+                <h2>Loaded Fries</h2>
+                <p>Crispy golden fries topped with melted cheese, bacon, and green onions.</p>
+                <p class="menu-item-price">Price: $5.99</p>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="icon/vanillaShake.jpeg" alt="Vanilla Shake">
+            <div class="menu-item-content">
+                <h2>Vanilla Shake</h2>
+                <p>Classic vanilla shake made with premium ice cream and topped with whipped cream.</p>
+                <p class="menu-item-price">Price: $4.49</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+
+    <div class="about-header" id="about"><h1>ABOUT US</h1></div>
+    <section >
+        <p>Welcome to our burger haven! We are passionate about crafting mouth-watering burgers that leave you craving
+            for more. Our commitment to quality ingredients and exceptional taste has made us a favorite among burger
+            enthusiasts.</p>
+
+        <div class="team-members">
+            <div class="team-member">
+                <img src="icon/chef1.jpeg" alt="Chef 1">
+                <h3>Chef John Doe</h3>
+                <p>With over 15 years of culinary experience, Chef John brings creativity and expertise to every burger
+                    he creates.</p>
+            </div>
+
+            <div class="team-member">
+                <img src="icon/chef2.jpeg" alt="Chef 2">
+                <h3>Chef Jane Smith</h3>
+                <p>Known for her innovative flavor combinations, Chef Jane adds a touch of uniqueness to our burger
+                    menu.</p>
+            </div>
+
+            <div class="team-member">
+                <img src="icon/chef3.jpeg" alt="Chef 3">
+                <h3>Chef Mike Johnson</h3>
+                <p>Specializing in gourmet burgers, Chef Mike ensures that each bite is a culinary delight for our
+                    customers.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT SECTION................ -->
+
+    <div class="about-header" id="contact"><h1>GET IN TOUCH</h1></div>
+    <section >
+        <p>We'd love to hear from you! Reach out to us using the contact form below or visit our restaurant in person.</p>
+    
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter name">
+    
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter email">
+    
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Write your message here..."></textarea>
+    
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+  <!-- REVIEWS SECTION ------->
+
+   <div class="container"id="review">
+    <h1>Customer Reviews</h1>
+    
+    <div class="review">
+      <div class="reviewer-info">
+        <img src="icon/customer1.jpg" alt="Customer 1">
+        <div class="re-info">
+          <h3>John Doe</h3>
+          <p>Verified Customer</p>
+        </div>
+      </div>
+      
+      <p class="rating">★★★★★</p>
+      
+      <p class="comment">
+        "The burgers at this restaurant are amazing! Great quality and taste. Definitely coming back again."
+      </p>
+    </div>
+
+    <div class="review">
+      <div class="reviewer-info">
+        <img src="icon/customer2.jpeg" alt="Customer 2">
+        <div class="re-info">
+          <h3>Jane Smith</h3>
+          <p>Regular Customer</p>
+        </div>
+      </div>
+      
+      <p class="rating">★★★★☆</p>
+      
+      <p class="comment">
+        "Love the variety of burgers they offer. The staff is friendly, and the service is quick. Highly recommend!"
+      </p>
+    </div>
+
+    <div class="review">
+      <div class="reviewer-info">
+        <img src="icon/customer3.jpeg" alt="Customer 3">
+        <div class="re-info">
+          <h3>Mary Johnson</h3>
+          <p>First-time Visitor</p>
+        </div>
+      </div>
+      
+      <p class="rating">★★★★★</p>
+      
+      <p class="comment">
+        "Impressed with the freshness of ingredients and the cozy atmosphere. Will definitely bring my friends next time!"
+      </p>
+    </div>
+
+    <div class="review">
+      <div class="reviewer-info">
+        <img src="icon/customer4.jpg" alt="Customer 4">
+        <div class="re-info">
+          <h3>Robert Anderson</h3>
+          <p>Burger Enthusiast</p>
+        </div>
+      </div>
+      
+      <p class="rating">★★★★★</p>
+      
+      <p class="comment">
+        "As a burger enthusiast, I can confidently say this place serves some of the best burgers in town. A must-visit for burger lovers!"
+      </p>
+    </div>
+
+    <div class="review">
+      <div class="reviewer-info">
+        <img src="icon/customer5.jpeg" alt="Customer 5">
+        <div class="re-info">
+          <h3>Amy Lee</h3>
+          <p>Family-friendly Atmosphere</p>
+        </div>
+      </div>
+      
+      <p class="rating">★★★★☆</p>
+      
+      <p class="comment">
+        "Visited with my family, and we enjoyed the family-friendly atmosphere. The burgers were delicious, and the kids loved it too!"
+      </p>
+    </div>
+
+  </div>
+
+  
+    <footer>
+      <div class="ftop">
+        <div class="fnav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu-header">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#review">Reviews</a></li>
+        </ul>
+        </div>
+        <div class="flogo">
+          <h1>Burger<span>park</span></h1>
+          <a href="SignIn.html"><button class="order-button">Order Now</button></a>
+        </div>
+      </div>
+        <div class="contact-info">
+            <div class="visit">
+                <h3>Visit Us</h3>
+                <p>Indraprui Sector A Delicious Street</p>
+                <p>Bhopal, Madhya Pradesh-462022</p>
+            </div>
+    
+            <div class="email">
+                <h3>Email Us</h3>
+                <p>info@burgerrestaurant.com</p>
+            </div>
+        </div>
+      </div>
+    
+        <div class="social-links">
+            <a href="https://www.instagram.com/burgerrestaurant"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://www.facebook.com/burgerrestaurant"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <!-- <a href="https://www.instagram.com/burgerrestaurant" target="_blank"><img src="icon/instagram.jpeg" alt="Instagram"></a> -->
+            <!-- <a href="https://www.facebook.com/burgerrestaurant" target="_blank"><img src="icon/facebook.png" alt="Facebook"></a> -->
+
+        <p>&copy; 2024 Burger Restaurant. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
+</html>
